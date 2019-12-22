@@ -136,14 +136,12 @@ We'll also need two additional functions to represent the following changes in s
 Lastly, we'll need to add a form to our `render` method.
 
 ```js
-<form>
   <input type="text"
    placeholder="Type an item here"
    onChange={(e) => this.newItemChange(e)}
    value={this.state.newItem}
   />
   <button onClick={(e) => this.addItem(e)}>Add it!</button>
-</form>
 ```
 
 Notes:
