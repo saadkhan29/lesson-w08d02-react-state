@@ -129,8 +129,8 @@ We'll also need two additional functions to represent the following changes in s
  > Create this function with an event parameter of 'e' like in `clearList`. Inside the function, change the state of `newItem` to `e.target.value` - this will be the value the user entered into the form.
 
 * `addItem`, for when we submit the form
- * We'll need to make a copy of `toDoItemArray`, push the `newItem`, set `state` and finally clear `newItem`.
- > Create this function with an event parameter of 'e'. Inside the function, create a new variable initialized to the value of the array that is saved in state. Then, use `yourArray.push(<value>)` to push the new item from the state into the array. Set the `newItem` state back to an empty string, and set the `toDoItemArray` state to your new array.
+ * We'll need to concat `newItem` with an array `toDoItemArray`, set `state` and finally clear `newItem`.
+ > Create this function with an event parameter of 'e'. Inside the function, use `yourArray.concat(<value>)` to concate the new item from the state into the array. Set the `newItem` state back to an empty string.
 
 
 Lastly, we'll need to add a form to our `render` method.
