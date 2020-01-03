@@ -25,7 +25,7 @@ Let's switch gears back to our `hello_world` project.
 
 > Be sure to switch which app is running locally!
 
-Let's modify our earlier Hello World example to include a new `MoodTracker` component. There will be a mood displayed, and eventually a user will click a button to indicate on a scale of 1-10 how much of that mood they are feeling.
+Let's modify our earlier Hello World example to include a new `MoodTracker` component. There will be a mood display, and eventually a user will click a button to indicate on a scale of 1-10 how much of that mood they are feeling.
 
 ### Initial State
 
